@@ -1,7 +1,7 @@
 let elem = document.getElementById("figur");
 let select = document.getElementById("my-select");
 
-select.addEventListener("click", function(){
+select.addEventListener("change", function(){
     elem.classList = select.value;   
 });
 
